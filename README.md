@@ -42,10 +42,6 @@ El modelo integra información de selecciones, estadios, jugadores, partidos, al
 
 El identificador de los equipos utiliza el código FIFA de tres letras, como `ARG` o `FRA`. Los jugadores cuentan además con un identificador deportivo legible formado por selección y dorsal, por ejemplo `FRA6`.
 
-## Diagrama entidad–relación
-
-![Diagrama entidad–relación](docs/diagrama_entidad_relacion.png)
-
 ## Estructura del repositorio
 
 | Ruta | Contenido |
@@ -55,7 +51,7 @@ El identificador de los equipos utiliza el código FIFA de tres letras, como `AR
 | `sql/schema.sql` | Estructura lógica documentada de las ocho tablas |
 | `sql/analisis.sql` | Consultas SQL para explorar rendimiento y eventos |
 | `sql/controles_calidad.sql` | Controles reproducibles de cobertura y consistencia |
-| [`docs/diagrama_entidad_relacion.png`](docs/diagrama_entidad_relacion.png) | Diagrama entidad–relación |
+| `scripts/tampermonkey/` | Userscripts de extracción desde FotMob y su documentación |
 
 ## Cómo utilizar la base
 
@@ -69,8 +65,8 @@ El identificador de los equipos utiliza el código FIFA de tres letras, como `AR
 ### Opción 2: línea de comandos
 
 ```bash
-git clone https://github.com/andycarrion/fifa-world-cup-2026-sql-analysis.git
-cd fifa-world-cup-2026-sql-analysis
+git clone https://github.com/andycarrion/fifa-world-cup-sql-analysis.git
+cd fifa-world-cup-sql-analysis
 sqlite3 data/mundial_fifa_2026.sqlite
 ```
 
@@ -83,6 +79,15 @@ SELECT id_equipo, seleccion, grupo, confederacion
 FROM equipos
 ORDER BY grupo, seleccion;
 ```
+
+## Scripts de extracción
+
+La carpeta [`scripts/tampermonkey`](scripts/tampermonkey) contiene las dos versiones finales y complementarias usadas para asistir la extracción desde FotMob:
+
+- Partido, estadísticas de actuación y alineaciones.
+- Tiros individuales, con salida SQL y CSV.
+
+Los scripts generan sentencias para revisión; no se conectan directamente con SQLite. La [documentación de instalación, uso y decisiones técnicas](scripts/tampermonkey/README.md) detalla el flujo completo.
 
 ## Ejemplo de análisis
 
@@ -118,12 +123,13 @@ Parte de la extracción desde FotMob fue asistida mediante una extensión de Tam
 
 ## Próximas mejoras
 
+- Incorporar el diagrama entidad–relación.
 - Agregar notebooks de análisis exploratorio.
 - Publicar visualizaciones o un dashboard interactivo.
 - Ampliar el enriquecimiento manual de la tabla `goles`.
 
 ## Autor
 
-**Andrés Carrión** — Estudiante de Licenciatura en Ciencia de Datos.
+**Andrés Carr** — Estudiante de Licenciatura en Ciencia de Datos.
 
 Proyecto desarrollado con fines educativos y de portfolio. FIFA y FotMob conservan los derechos sobre sus marcas y contenidos originales; este repositorio no está afiliado oficialmente con dichas organizaciones.
