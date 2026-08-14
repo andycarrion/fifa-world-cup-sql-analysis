@@ -44,7 +44,7 @@ El identificador de los equipos utiliza el código FIFA de tres letras, como `AR
 
 ## Diagrama entidad–relación
 
-![Diagrama entidad–relación](docs/diagrama_entidad_relacion.png)
+| [`docs/diagrama_entidad_relacion.png`](docs/diagrama_entidad_relacion.png) | Diagrama entidad–relación |
 
 ## Estructura del repositorio
 
