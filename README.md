@@ -68,7 +68,7 @@ El identificador de los equipos utiliza el código FIFA de tres letras, como `AR
 ### Opción 2: línea de comandos
 
 ```bash
-git clone https://github.com/USUARIO/fifa-world-cup-2026-sql-analysis.git
+git clone https://github.com/andycarrion/fifa-world-cup-2026-sql-analysis.git
 cd fifa-world-cup-2026-sql-analysis
 sqlite3 data/mundial_fifa_2026.sqlite
 ```
@@ -82,8 +82,6 @@ SELECT id_equipo, seleccion, grupo, confederacion
 FROM equipos
 ORDER BY grupo, seleccion;
 ```
-
-Reemplazar `USUARIO` por el nombre de usuario de GitHub una vez publicado el repositorio.
 
 ## Ejemplo de análisis
 
