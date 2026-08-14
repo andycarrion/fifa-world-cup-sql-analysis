@@ -42,6 +42,10 @@ El modelo integra información de selecciones, estadios, jugadores, partidos, al
 
 El identificador de los equipos utiliza el código FIFA de tres letras, como `ARG` o `FRA`. Los jugadores cuentan además con un identificador deportivo legible formado por selección y dorsal, por ejemplo `FRA6`.
 
+## Diagrama entidad–relación
+
+![Diagrama entidad–relación](docs/diagrama_entidad_relacion.png)
+
 ## Estructura del repositorio
 
 | Ruta | Contenido |
