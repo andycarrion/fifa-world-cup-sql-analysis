@@ -44,7 +44,7 @@ El identificador de los equipos utiliza el código FIFA de tres letras, como `AR
 
 ## Diagrama entidad–relación
 
-| [`docs/diagrama_entidad_relacion.png`](docs/diagrama_entidad_relacion.png) | Diagrama entidad–relación |
+![Diagrama entidad–relación](docs/diagrama_entidad_relacion.png)
 
 ## Estructura del repositorio
 
@@ -55,6 +55,7 @@ El identificador de los equipos utiliza el código FIFA de tres letras, como `AR
 | `sql/schema.sql` | Estructura lógica documentada de las ocho tablas |
 | `sql/analisis.sql` | Consultas SQL para explorar rendimiento y eventos |
 | `sql/controles_calidad.sql` | Controles reproducibles de cobertura y consistencia |
+| [`docs/diagrama_entidad_relacion.png`](docs/diagrama_entidad_relacion.png) | Diagrama entidad–relación |
 
 ## Cómo utilizar la base
 
