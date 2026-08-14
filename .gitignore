@@ -1,0 +1,19 @@
+# SQLite temporary files
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+*.db-journal
+
+# DBeaver and editor settings
+.dbeaver/
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.bak
+~$*.docx
