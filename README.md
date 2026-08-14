@@ -115,13 +115,12 @@ Parte de la extracción desde FotMob fue asistida mediante una extensión de Tam
 
 ## Próximas mejoras
 
-- Incorporar el diagrama entidad–relación.
 - Agregar notebooks de análisis exploratorio.
 - Publicar visualizaciones o un dashboard interactivo.
 - Ampliar el enriquecimiento manual de la tabla `goles`.
 
 ## Autor
 
-**Andrés Carr** — Estudiante de Licenciatura en Ciencia de Datos.
+**Andrés Carrión** — Estudiante de Licenciatura en Ciencia de Datos.
 
 Proyecto desarrollado con fines educativos y de portfolio. FIFA y FotMob conservan los derechos sobre sus marcas y contenidos originales; este repositorio no está afiliado oficialmente con dichas organizaciones.
