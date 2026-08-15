@@ -89,6 +89,12 @@ La carpeta [`scripts/tampermonkey`](scripts/tampermonkey) contiene las dos versi
 
 Los scripts generan sentencias para revisión; no se conectan directamente con SQLite. La [documentación de instalación, uso y decisiones técnicas](scripts/tampermonkey/README.md) detalla el flujo completo.
 
+## Visualizaciones en Power BI
+
+El proyecto incluye un análisis visual sobre posesión, generación de peligro y porcentaje de victorias.
+
+[Ver visualizaciones y dashboard de Power BI](visualizations/power-bi/README.md)
+
 ## Ejemplo de análisis
 
 ```sql
