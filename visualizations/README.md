@@ -13,3 +13,9 @@ La muestra incluye los diez equipos mejor posicionados del torneo y las seleccio
 ![Posesión promedio vs. xG por partido](posesion_vs_xg.png)
 
 La visualización estudia si una mayor posesión se relaciona con una mayor generación de peligro mediante el promedio de goles esperados por partido.
+
+## Goles esperados de Argentina y sus rivales
+
+![Goles esperados de Argentina y sus rivales](peligrosidad_argentina.png)
+
+Argentina superó el xG de sus rivales (fue más peligroso) en siete partidos consecutivos. Sin embargo, frente a España produjo apenas 0,22 xG y concedió 2,29, mostrando una ruptura significativa respecto de su rendimiento anterior.
